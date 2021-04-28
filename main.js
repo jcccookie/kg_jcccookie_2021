@@ -11,3 +11,7 @@ const MAP = {
   "8": "Eight",
   "9": "Nine"
 };
+
+const getArgs = () => {
+  return process.argv.slice(2);
+};
