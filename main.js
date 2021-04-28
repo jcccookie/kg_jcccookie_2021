@@ -15,3 +15,7 @@ const MAP = {
 const getArgs = () => {
   return process.argv.slice(2);
 };
+
+const convertToPhonetic = number => {
+  return number.split("").map(digit => MAP[digit]);
+};
